@@ -1,0 +1,33 @@
+.todolist{
+    width: 90%;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    border:2px solid rgb(123, 118, 118);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    text-decoration: none;
+}
+.text2{
+    text-decoration: line-through;
+}
+.delete-btn{
+    padding: 5px;
+    background-color: brown;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #ceb9b9;
+    border: 0;
+}
+.delete-btn:hover{
+    padding: 5px;
+    background-color: rgb(175, 101, 101);
+    border-radius: 8px;
+    font-weight: 500;
+    color: #ceb9b9;
+    cursor: pointer;
+}
